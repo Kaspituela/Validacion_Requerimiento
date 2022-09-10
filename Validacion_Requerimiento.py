@@ -66,8 +66,8 @@ logging.basicConfig(filename='Tarea1.log', filemode='w',level=logging.DEBUG, for
 logging.info('Inicio del programa Tarea1')
 p = Pila()
 opt = 0
-while(opt != 5):
-    print("=======================\nIngrese una opción\n1)Ingresar texto\n2)Texto más largo\n3)Texto más corto\n4)Imprimir texto\n5)Comparar tamaños")   
+while(opt != "6"):
+    print("=======================\nIngrese una opción\n1)Ingresar texto\n2)Texto más largo\n3)Texto más corto\n4)Imprimir texto\n5)Comparar tamaños\n6)Salir")   
     opt = input()
     if opt == "1":
         print("Ingrese el texto")
@@ -113,5 +113,3 @@ while(opt != 5):
                text2 = p.printPos(pos2)
                print("Texto: {0} ; Tamaño: {1}".format(text2,len(text2)))
                logging.info("Se compara los textos '{0}' y '{1}'".format(text1,text2))
-    else:
-        print("Ingrese una de las opciones listadas anteriormente")
