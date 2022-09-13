@@ -22,5 +22,6 @@ Programa que utiliza una pila para el guardado de textos.Se implementan funciona
 </ol>
 
 ## Cómo contribuir
+Si se encuentran algun error o falla durante la ejecución del programa, porfavor avisar para arreglarlo en un futuro próximo.
 ## Licencia
 El código es libre de uso.
